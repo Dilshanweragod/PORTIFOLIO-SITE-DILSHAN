@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dilshanweragod.github.io/PORTIFOLIO-SITE/sitemap.xml

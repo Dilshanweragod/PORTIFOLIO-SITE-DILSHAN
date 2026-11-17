@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" width="640" height="240" role="img" aria-label="Imagine bird logo">
+  <rect width="640" height="240" rx="18" fill="#ffffff" />
+  <g transform="translate(22, 16)">
+    <!-- "Imagine" geometric thin lettering matching uploaded wordmark -->
+    <g fill="none" stroke="#111111" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- I -->
+      <line x1="16" y1="112" x2="16" y2="178" />
+      <!-- m -->
+      <path d="M38 178 V138 A17 17 0 0 1 72 138 V178" />
+      <path d="M72 178 V138 A17 17 0 0 1 106 138 V178" />
+      <!-- a -->
+      <circle cx="142" cy="153" r="24" />
+      <line x1="166" y1="129" x2="166" y2="178" />
+      <!-- g -->
+      <circle cx="210" cy="153" r="24" />
+      <path d="M234 129 V178 A24 24 0 0 1 188 189" />
+      <!-- i -->
+      <line x1="254" y1="129" x2="254" y2="178" />
+      <!-- n -->
+      <path d="M274 178 V138 A20 20 0 0 1 314 138 V178" />
+      <!-- e -->
+      <path d="M377 166 A24 24 0 1 1 378 148 H332" />
+    </g>
+    <!-- Red dot inside 'g' and black dot over 'i' -->
+    <circle cx="210" cy="153" r="13" fill="#e11d2a" />
+    <circle cx="254" cy="108" r="6.5" fill="#111111" />
+
+    <!-- Stylized geometric bird forming 'B' + 'ird' -->
+    <g transform="translate(10, 0)">
+      <!-- Crest & antennae -->
+      <path d="M350 38 Q350 76 410 72" fill="none" stroke="#e11d2a" stroke-width="1.8" />
+      <path d="M366 38 Q366 72 414 70" fill="none" stroke="#e11d2a" stroke-width="1.6" />
+      <path d="M382 38 Q382 68 418 68" fill="none" stroke="#e11d2a" stroke-width="1.4" />
+
+      <!-- Top crest black lobe with red dot -->
+      <path d="M446 66 C446 36, 488 34, 492 64 C494 82, 476 92, 456 84 Z" fill="#111111" />
+      <circle cx="468" cy="59" r="7.5" fill="#e11d2a" />
+
+      <!-- Black & red beak -->
+      <polygon points="486,90 592,136 474,108" fill="#111111" />
+      <polygon points="474,108 592,136 462,136" fill="#e11d2a" />
+
+      <!-- Bird neck & body forming 'B' -->
+      <path d="M446 86 C434 62, 386 78, 392 126 C396 174, 434 198, 464 176 C474 168, 472 146, 456 140 C442 136, 430 144, 428 158 C425 140, 418 118, 438 112 C452 108, 456 96, 446 86 Z" fill="#111111" />
+      <path d="M438 80 C424 72, 404 82, 406 106 C408 118, 424 122, 438 112 C448 105, 448 86, 438 80 Z" fill="#ffffff" stroke="#111111" stroke-width="3.5" />
+      <circle cx="433" cy="86" r="4.5" fill="#111111" />
+      <circle cx="418" cy="144" r="5" fill="#ffffff" />
+
+      <!-- Bird eye circle -->
+      <circle cx="478" cy="112" r="20" fill="#e11d2a" stroke="#111111" stroke-width="3" />
+      <circle cx="478" cy="112" r="7.5" fill="#111111" />
+
+      <!-- "ird" -->
+      <g fill="none" stroke="#111111" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="484" y1="138" x2="484" y2="178" />
+        <path d="M502 178 V138 A18 18 0 0 1 536 136" />
+        <circle cx="546" cy="154" r="24" />
+        <line x1="570" y1="112" x2="570" y2="178" />
+      </g>
+    </g>
+  </g>
+</svg>

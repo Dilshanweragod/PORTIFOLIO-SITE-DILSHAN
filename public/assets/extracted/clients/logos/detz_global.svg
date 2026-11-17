@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" width="640" height="200" role="img" aria-label="DETZ Global official logo">
+  <rect width="640" height="200" fill="#000000" />
+  <g transform="translate(36, 46)">
+    <!-- Bold geometric "DETZ" -->
+    <text
+      x="0"
+      y="98"
+      font-family="'Poppins', 'Montserrat', 'Helvetica Neue', Arial, sans-serif"
+      font-size="108"
+      font-weight="800"
+      fill="#ffffff"
+      letter-spacing="2"
+    >DETZ</text>
+
+    <!-- Top-right 4 white service icons above "Global" -->
+    <g transform="translate(306, 12)" fill="#ffffff">
+      <!-- 1. Camera Shutter / Aperture -->
+      <g transform="translate(0, 0)">
+        <circle cx="16" cy="16" r="14" fill="none" stroke="#ffffff" stroke-width="2.4" />
+        <path d="M16 3 L21 12 M27 8 L19 15 M29 21 L18 18 M16 29 L11 20 M5 24 L13 17 M3 11 L14 14" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+        <circle cx="16" cy="16" r="4" fill="#000000" stroke="#ffffff" stroke-width="1.8" />
+      </g>
+
+      <!-- 2. Cloud with </> -->
+      <g transform="translate(46, 2)">
+        <path
+          d="M11 26 H31 A8 8 0 0 0 32 10.5 A11 11 0 0 0 11.5 9.5 A7.5 7.5 0 0 0 11 26 Z"
+          fill="#ffffff"
+        />
+        <text
+          x="21.5"
+          y="21"
+          text-anchor="middle"
+          font-family="'Space Grotesk', monospace"
+          font-size="11.5"
+          font-weight="800"
+          fill="#000000"
+        >&lt;/&gt;</text>
+      </g>
+
+      <!-- 3. Audio / Media Swirl Play Circle -->
+      <g transform="translate(102, 0)">
+        <circle cx="16" cy="16" r="13.5" fill="none" stroke="#ffffff" stroke-width="2.2" />
+        <circle cx="16" cy="16" r="9.5" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-dasharray="22 8" />
+        <polygon points="14,11.5 21.5,16 14,20.5" fill="#ffffff" />
+      </g>
+
+      <!-- 4. Clapperboard / Video Play -->
+      <g transform="translate(148, 1)">
+        <!-- Top clapper bar -->
+        <rect x="2" y="2" width="28" height="6" rx="1" fill="#ffffff" />
+        <line x1="7" y1="2" x2="4" y2="8" stroke="#000000" stroke-width="2" />
+        <line x1="14" y1="2" x2="11" y2="8" stroke="#000000" stroke-width="2" />
+        <line x1="21" y1="2" x2="18" y2="8" stroke="#000000" stroke-width="2" />
+        <line x1="27" y1="2" x2="24" y2="8" stroke="#000000" stroke-width="2" />
+        <!-- Slate body with centered play arrow -->
+        <rect x="2" y="10" width="28" height="19" rx="2" fill="#ffffff" />
+        <polygon points="13,14.5 22,19.5 13,24.5" fill="#000000" />
+      </g>
+    </g>
+
+    <!-- Thin geometric "Global" below the 4 icons -->
+    <text
+      x="306"
+      y="98"
+      font-family="'Poppins', 'Montserrat', 'Helvetica Neue', Arial, sans-serif"
+      font-size="58"
+      font-weight="300"
+      fill="#ffffff"
+      letter-spacing="1.5"
+    >Global</text>
+  </g>
+</svg>

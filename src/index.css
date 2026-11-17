@@ -1,0 +1,220 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    color-scheme: dark;
+    scrollbar-width: thin;
+    scrollbar-color: #262626 #050505;
+  }
+
+  body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: rgba(255, 106, 0, 0.2);
+  }
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6A00;
+}
+
+/* Infinite Marquee Keyframes */
+@keyframes marquee-scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee-left {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll-left 28s linear infinite;
+}
+
+.animate-marquee-right {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll-right 28s linear infinite;
+}
+
+.animate-marquee-logos-left {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll-left 36s linear infinite;
+}
+
+.animate-marquee-logos-right {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll-right 36s linear infinite;
+}
+
+.animate-tools-logos-left {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll-left 90s linear infinite;
+}
+
+.animate-tools-logos-right {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll-right 90s linear infinite;
+}
+
+.animate-marquee-left:hover,
+.animate-marquee-right:hover,
+.animate-marquee-logos-left:hover,
+.animate-marquee-logos-right:hover,
+.animate-marquee-logos-left:focus-within,
+.animate-marquee-logos-right:focus-within,
+.animate-tools-logos-left:hover,
+.animate-tools-logos-right:hover,
+.animate-tools-logos-left:focus-within,
+.animate-tools-logos-right:focus-within {
+  animation-play-state: paused;
+}
+
+/* Floating Glass Shards Keyframes */
+@keyframes float-shard-1 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(-14px, -18px, 0) rotate(3deg);
+  }
+}
+
+@keyframes float-shard-2 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(16px, -12px, 0) rotate(-4deg);
+  }
+}
+
+@keyframes float-shard-3 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(-10px, 15px, 0) rotate(2.5deg);
+  }
+}
+
+@keyframes float-shard-4 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(12px, 16px, 0) rotate(-2deg);
+  }
+}
+
+@keyframes ambient-glow-pulse {
+  0%, 100% {
+    opacity: 0.15;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.28;
+    transform: scale(1.08);
+  }
+}
+
+.animate-shard-1 {
+  animation: float-shard-1 16s ease-in-out infinite;
+}
+
+.animate-shard-2 {
+  animation: float-shard-2 19s ease-in-out infinite;
+}
+
+.animate-shard-3 {
+  animation: float-shard-3 22s ease-in-out infinite;
+}
+
+.animate-shard-4 {
+  animation: float-shard-4 17s ease-in-out infinite;
+}
+
+.animate-ambient-glow {
+  animation: ambient-glow-pulse 10s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-shard-1,
+  .animate-shard-2,
+  .animate-shard-3,
+  .animate-shard-4,
+  .animate-ambient-glow,
+  .animate-marquee-left,
+  .animate-marquee-right,
+  .animate-marquee-logos-left,
+  .animate-marquee-logos-right,
+  .animate-tools-logos-left,
+  .animate-tools-logos-right {
+    animation: none !important;
+  }
+}
+
+/* Subtle Shard Texture Overlay */
+.shard-bg {
+  background-image: 
+    radial-gradient(circle at 80% 20%, rgba(255, 106, 0, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.02) 0%, transparent 40%),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.95));
+}
+
+/* Subtle grid line pattern */
+.bg-grid-subtle {
+  background-size: 60px 60px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-label="Splendor Centre for Language &amp; Music logo">
+  <defs>
+    <linearGradient id="splendor-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#112266" />
+      <stop offset="50%" stop-color="#6b0f82" />
+      <stop offset="100%" stop-color="#c9006b" />
+    </linearGradient>
+    <linearGradient id="splendor-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#112266" />
+      <stop offset="100%" stop-color="#c9006b" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="280" rx="18" fill="#ffffff" />
+  <g transform="translate(34, 22)">
+    <!-- Stylized Treble Clef 'S' -->
+    <path
+      d="M72 174 C42 176, 20 152, 22 122 C24 92, 56 82, 76 94 C92 104, 92 126, 74 132 C60 136, 50 126, 54 114 M90 220 C68 230, 44 216, 46 194 M90 220 C116 204, 122 164, 94 134 C66 104, 84 56, 106 30 C120 14, 132 24, 126 46 C120 70, 84 94, 82 146 C81 182, 104 200, 90 220"
+      fill="none"
+      stroke="url(#splendor-grad)"
+      stroke-width="11"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- "plen" -->
+    <text
+      x="148"
+      y="160"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="94"
+      font-weight="600"
+      fill="#112266"
+      letter-spacing="-2"
+    >plen</text>
+    <!-- Music note stylized 'd' tightly aligned with serif baseline -->
+    <g fill="none" stroke="url(#splendor-grad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="352" cy="141" rx="19" ry="15" transform="rotate(-18 352 141)" />
+      <path d="M371 135 V78 C386 86, 398 102, 396 119" />
+    </g>
+    <!-- "or" -->
+    <text
+      x="386"
+      y="160"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="94"
+      font-weight="600"
+      fill="#112266"
+      letter-spacing="-2"
+    >or</text>
+    <!-- Curved gradient swoosh underline -->
+    <path d="M210 190 Q315 166 420 176 Q315 174 210 190 Z" fill="url(#splendor-bar)" />
+    <!-- Subtitle -->
+    <text
+      x="244"
+      y="206"
+      font-family="'Poppins', 'Helvetica Neue', Arial, sans-serif"
+      font-size="16"
+      font-weight="700"
+      fill="#111111"
+    >Centre for Language &amp; Music</text>
+  </g>
+</svg>
